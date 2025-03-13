@@ -10,8 +10,8 @@
   <%- include('../partials/_navbar.ejs') %>
   <h1>Edit <%= application.title %> at <%= application.company %></h1>
   <form
-    action="/users/<%= user._id %>/applications/<%= application._id %>?_method=PUT"
-    method="POST"
+  action="/users/<%= user._id %>/applications/<%= application._id %>?_method=PUT"
+  method="POST"
   >
     <label for="company">Company:</label>
     <input
